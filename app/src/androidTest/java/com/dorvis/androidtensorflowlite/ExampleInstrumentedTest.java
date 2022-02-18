@@ -19,4 +19,8 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
-        Context appContext = InstrumentationRegistry.
+        Context appContext = InstrumentationRegistry.getTargetContext();
+
+        assertEquals("com.dorvis.androidtensorflowlite", appContext.getPackageName());
+    }
+}
