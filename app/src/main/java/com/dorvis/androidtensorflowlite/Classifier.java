@@ -14,4 +14,8 @@ public interface Classifier {
 
         /**
          * Display name for the recognition.
-   
+         */
+        private final String title;
+
+        /**
+         * A sortable score for how good the recognition is relative to others. Higher should 
