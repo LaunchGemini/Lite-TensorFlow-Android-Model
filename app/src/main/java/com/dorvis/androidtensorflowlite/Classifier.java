@@ -18,4 +18,9 @@ public interface Classifier {
         private final String title;
 
         /**
-         * A sortable score for how good the recognition is relative to others. Higher should 
+         * A sortable score for how good the recognition is relative to others. Higher should be better.
+         */
+        private final Float confidence;
+
+        public Recognition(
+                final String id, final String title, fina
