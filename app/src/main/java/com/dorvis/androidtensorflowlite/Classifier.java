@@ -35,3 +35,17 @@ public interface Classifier {
 
         public String getTitle() {
             return title;
+        }
+
+        public Float getConfidence() {
+            return confidence;
+        }
+
+        @Override
+        public String toString() {
+            String resultString = "";
+            if (id != null) {
+                resultString += "[" + id + "] ";
+            }
+
+       
