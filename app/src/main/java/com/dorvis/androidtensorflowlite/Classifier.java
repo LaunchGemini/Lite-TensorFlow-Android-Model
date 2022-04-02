@@ -48,4 +48,9 @@ public interface Classifier {
                 resultString += "[" + id + "] ";
             }
 
-       
+            if (title != null) {
+                resultString += title + " ";
+            }
+
+            if (confidence != null) {
+           
