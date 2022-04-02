@@ -61,3 +61,7 @@ public interface Classifier {
     }
 
 
+    List<Recognition> recognizeImage(Bitmap bitmap);
+
+    void close();
+}
