@@ -23,4 +23,8 @@ public interface Classifier {
         private final Float confidence;
 
         public Recognition(
-                final String id, final String title, fina
+                final String id, final String title, final Float confidence) {
+            this.id = id;
+            this.title = title;
+            this.confidence = confidence;
+    
