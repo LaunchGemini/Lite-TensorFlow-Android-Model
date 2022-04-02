@@ -27,4 +27,11 @@ public interface Classifier {
             this.id = id;
             this.title = title;
             this.confidence = confidence;
-    
+        }
+
+        public String getId() {
+            return id;
+        }
+
+        public String getTitle() {
+            return title;
