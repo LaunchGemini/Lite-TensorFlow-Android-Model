@@ -13,3 +13,6 @@ import android.widget.TextView;
 import com.wonderkiln.camerakit.CameraKitError;
 import com.wonderkiln.camerakit.CameraKitEvent;
 import com.wonderkiln.camerakit.CameraKitEventListener;
+import com.wonderkiln.camerakit.CameraKitImage;
+import com.wonderkiln.camerakit.CameraKitVideo;
+import com.wonderkiln.camera
