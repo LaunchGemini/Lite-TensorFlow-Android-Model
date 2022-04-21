@@ -30,4 +30,8 @@ public class MainActivity extends AppCompatActivity {
     private static final String LABEL_PATH = "labels.txt";
     private static final int INPUT_SIZE = 224;
 
-    private Classifier c
+    private Classifier classifier;
+
+    private Executor executor = Executors.newSingleThreadExecutor();
+    private TextView textViewResult;
+    private Button btnDetec
