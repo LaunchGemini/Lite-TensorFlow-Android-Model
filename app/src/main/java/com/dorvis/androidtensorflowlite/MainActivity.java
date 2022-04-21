@@ -26,4 +26,8 @@ import java.util.concurrent.Executors;
  */
 public class MainActivity extends AppCompatActivity {
 
-    private static final String MODEL_PATH = 
+    private static final String MODEL_PATH = "mobilenet_quant_v1_224.tflite";
+    private static final String LABEL_PATH = "labels.txt";
+    private static final int INPUT_SIZE = 224;
+
+    private Classifier c
