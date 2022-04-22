@@ -66,4 +66,8 @@ public class MainActivity extends AppCompatActivity {
 
                 Bitmap bitmap = cameraKitImage.getBitmap();
 
-                bitmap = Bitmap.createScale
+                bitmap = Bitmap.createScaledBitmap(bitmap, INPUT_SIZE, INPUT_SIZE, false);
+
+                imageViewResult.setImageBitmap(bitmap);
+
+                fina
