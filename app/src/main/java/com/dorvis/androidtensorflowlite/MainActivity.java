@@ -57,4 +57,9 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public v
+            public void onError(CameraKitError cameraKitError) {
+
+            }
+
+            @Override
+            public void onImage(CameraKitImage camer
