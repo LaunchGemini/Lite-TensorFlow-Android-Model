@@ -50,4 +50,11 @@ public class MainActivity extends AppCompatActivity {
         btnToggleCamera = findViewById(R.id.btnToggleCamera);
         btnDetectObject = findViewById(R.id.btnDetectObject);
 
-        cameraView.addCameraKitListener(new CameraKitEventLi
+        cameraView.addCameraKitListener(new CameraKitEventListener() {
+            @Override
+            public void onEvent(CameraKitEvent cameraKitEvent) {
+
+            }
+
+            @Override
+            public v
