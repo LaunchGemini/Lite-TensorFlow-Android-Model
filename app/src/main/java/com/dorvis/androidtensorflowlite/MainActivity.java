@@ -62,4 +62,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onImage(CameraKitImage camer
+            public void onImage(CameraKitImage cameraKitImage) {
+
+                Bitmap bitmap = cameraKitImage.getBitmap();
+
+                bitmap = Bitmap.createScale
