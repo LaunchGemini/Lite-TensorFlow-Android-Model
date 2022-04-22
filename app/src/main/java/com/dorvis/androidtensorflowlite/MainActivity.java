@@ -34,4 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
     private Executor executor = Executors.newSingleThreadExecutor();
     private TextView textViewResult;
-    private Button btnDetec
+    private Button btnDetectObject, btnToggleCamera;
+    private ImageView imageViewResult;
+    private CameraView cameraView;
+
+    @Override
+    protected void onCr
