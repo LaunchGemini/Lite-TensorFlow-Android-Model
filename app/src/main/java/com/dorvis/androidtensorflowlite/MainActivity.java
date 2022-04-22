@@ -39,4 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private CameraView cameraView;
 
     @Override
-    protected void onCr
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        cameraView =
