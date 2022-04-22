@@ -47,4 +47,7 @@ public class MainActivity extends AppCompatActivity {
         textViewResult = findViewById(R.id.textViewResult);
         textViewResult.setMovementMethod(new ScrollingMovementMethod());
 
-        btnToggleCamera = findViewById(R.id.btnToggl
+        btnToggleCamera = findViewById(R.id.btnToggleCamera);
+        btnDetectObject = findViewById(R.id.btnDetectObject);
+
+        cameraView.addCameraKitListener(new CameraKitEventLi
