@@ -70,4 +70,8 @@ public class MainActivity extends AppCompatActivity {
 
                 imageViewResult.setImageBitmap(bitmap);
 
-                fina
+                final List<Classifier.Recognition> results = classifier.recognizeImage(bitmap);
+
+                textViewResult.setText(results.toString());
+
+     
