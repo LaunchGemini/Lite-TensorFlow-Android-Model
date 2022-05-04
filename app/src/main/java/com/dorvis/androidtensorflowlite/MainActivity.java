@@ -74,4 +74,12 @@ public class MainActivity extends AppCompatActivity {
 
                 textViewResult.setText(results.toString());
 
-     
+            }
+
+            @Override
+            public void onVideo(CameraKitVideo cameraKitVideo) {
+
+            }
+        });
+
+        btnToggleCamera.setO
