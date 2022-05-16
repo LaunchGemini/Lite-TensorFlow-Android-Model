@@ -96,3 +96,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        initTensorFlowAndLoadModel();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+       
