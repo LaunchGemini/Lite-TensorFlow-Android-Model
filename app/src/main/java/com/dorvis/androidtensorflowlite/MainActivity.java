@@ -82,4 +82,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnToggleCamera.setO
+        btnToggleCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cameraView.toggleFacing();
