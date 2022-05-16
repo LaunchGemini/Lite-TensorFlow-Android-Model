@@ -90,4 +90,9 @@ public class MainActivity extends AppCompatActivity {
         });
 
         btnDetectObject.setOnClickListener(new View.OnClickListener() {
-            @Ove
+            @Override
+            public void onClick(View v) {
+                cameraView.captureImage();
+            }
+        });
+
