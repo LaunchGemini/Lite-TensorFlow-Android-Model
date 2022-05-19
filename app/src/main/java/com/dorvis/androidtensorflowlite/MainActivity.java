@@ -116,4 +116,11 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         executor.execute(new Runnable() {
             @Override
-            publi
+            public void run() {
+                classifier.close();
+            }
+        });
+    }
+
+    private void initTensorFlowAndLoadModel() {
+        
