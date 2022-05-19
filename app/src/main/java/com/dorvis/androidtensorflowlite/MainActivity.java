@@ -111,4 +111,9 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
     }
 
-    @O
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        executor.execute(new Runnable() {
+            @Override
+            publi
