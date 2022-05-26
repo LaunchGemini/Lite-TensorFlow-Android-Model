@@ -130,4 +130,7 @@ public class MainActivity extends AppCompatActivity {
                     classifier = TensorFlowImageClassifier.create(
                             getAssets(),
                             MODEL_PATH,
-                
+                            LABEL_PATH,
+                            INPUT_SIZE);
+                    makeButtonVisible();
+                } catch (final Exception
