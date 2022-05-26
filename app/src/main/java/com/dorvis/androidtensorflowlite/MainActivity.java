@@ -123,4 +123,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initTensorFlowAndLoadModel() {
-        
+        executor.execute(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    cl
