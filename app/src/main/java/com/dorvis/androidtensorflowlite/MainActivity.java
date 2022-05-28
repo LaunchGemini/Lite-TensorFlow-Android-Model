@@ -133,4 +133,10 @@ public class MainActivity extends AppCompatActivity {
                             LABEL_PATH,
                             INPUT_SIZE);
                     makeButtonVisible();
-                } catch (final Exception
+                } catch (final Exception e) {
+                    throw new RuntimeException("Error initializing TensorFlow!", e);
+                }
+            }
+        });
+    }
+
