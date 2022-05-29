@@ -140,3 +140,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void makeButtonVisible() {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+    
