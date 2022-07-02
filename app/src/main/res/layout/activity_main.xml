@@ -39,4 +39,12 @@
             android:gravity="center"
             android:maxLines="15"
             android:scrollbars="vertical"
-            android:textColor="@android:color/black
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnToggleCamera"
+        android:layout_width="match_parent"
+        andro
