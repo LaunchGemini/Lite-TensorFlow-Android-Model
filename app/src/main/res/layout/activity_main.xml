@@ -47,4 +47,7 @@
     <Button
         android:id="@+id/btnToggleCamera"
         android:layout_width="match_parent"
-        andro
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="50dp"
+        android:text="@string/toggle_ca
