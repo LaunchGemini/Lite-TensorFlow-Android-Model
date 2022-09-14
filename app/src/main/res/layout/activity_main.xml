@@ -55,4 +55,7 @@
         android:textColor="@android:color/black" />
 
     <Button
-        android:id="@+i
+        android:id="@+id/btnDetectObject"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom|cent
