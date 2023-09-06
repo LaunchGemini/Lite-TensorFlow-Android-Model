@@ -16,4 +16,13 @@ while [ -h "$PRG" ] ; do
     if expr "$link" : '/.*' > /dev/null; then
         PRG="$link"
     else
-        PRG=`dirname "$PRG"`"
+        PRG=`dirname "$PRG"`"/$link"
+    fi
+done
+SAVED="`pwd`"
+cd "`dirname \"$PRG\"`/" >/dev/null
+APP_HOME="`pwd -P`"
+cd "$SAVED" >/dev/null
+
+APP_NAME="Gradle"
+AP
