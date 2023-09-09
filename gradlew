@@ -45,4 +45,13 @@ die () {
 }
 
 # OS specific support (must be 'true' or 'false').
-cy
+cygwin=false
+msys=false
+darwin=false
+nonstop=false
+case "`uname`" in
+  CYGWIN* )
+    cygwin=true
+    ;;
+  Darwin* )
+   
