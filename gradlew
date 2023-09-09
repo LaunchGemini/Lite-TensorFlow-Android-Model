@@ -34,3 +34,15 @@ DEFAULT_JVM_OPTS=""
 MAX_FD="maximum"
 
 warn () {
+    echo "$*"
+}
+
+die () {
+    echo
+    echo "$*"
+    echo
+    exit 1
+}
+
+# OS specific support (must be 'true' or 'false').
+cy
