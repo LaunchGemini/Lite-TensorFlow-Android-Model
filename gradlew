@@ -77,4 +77,9 @@ if [ -n "$JAVA_HOME" ] ; then
     if [ ! -x "$JAVACMD" ] ; then
         die "ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME
 
-Please set the JAVA_HOME variable in your environm
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation."
+    fi
+else
+    JAVACMD="java"
+    which java >/dev/null 2>&1 || die "ERROR:
